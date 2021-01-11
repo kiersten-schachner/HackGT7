@@ -26,7 +26,6 @@ nav {
   -webkit-box-shadow: 0 35px 20px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 35px 20px rgba(0, 0, 0, 0.5);
   box-shadow: 0 35px 20px rgba(0, 0, 0, 0.5);
-
 }
 
 nav ul {
@@ -133,7 +132,7 @@ p{
 .isidewith a{
   font-family:arial;
   font-size:16px;
-  color:#34495e;
+  color:#fff;
   text-decoration:none;
   line-height:50px;
   transition:all .5s ease;
@@ -159,7 +158,7 @@ p{
 .joebiden{
   width:140px;
   height:50px;
-  border:2px solid #34495e;
+  border:2px solid #0015BC;
   float:left;
   text-align:center;
   cursor:pointer;
@@ -171,7 +170,7 @@ p{
 .joebiden a{
   font-family:arial;
   font-size:16px;
-  color:#34495e;
+  color:#fff;
   text-decoration:none;
   line-height:50px;
   transition:all .5s ease;
@@ -181,15 +180,17 @@ p{
 .joebidenfacts{
   width:140px;
   height:50px;
-  border:0px solid #34495e;
+  border:0px solid #0015BC;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
   box-sizing:border-box;
 }
 .joebiden:hover .joebidenfacts{
-  border:70px solid #34495e;
+  border:70px solid #0015BC;
+
 }
+
 .joebiden:hover a{
   color:#fff;
 }
@@ -197,7 +198,7 @@ p{
 .donaldtrump{
   width:140px;
   height:50px;
-  border:2px solid #34495e;
+  border:2px solid #DE0100;
   float:left;
   text-align:center;
   cursor:pointer;
@@ -206,34 +207,46 @@ p{
   overflow:hidden;
   margin:0 0 40px 50px;
 }
+
 .donaldtrump a{
   font-family:arial;
   font-size:16px;
-  color:#34495e;
+  color:#fff;
   text-decoration:none;
   line-height:50px;
   transition:all .5s ease;
   z-index:2;
   position:relative;
 }
+
 .donaldtrumpfacts{
   width:140px;
   height:50px;
-  border:0px solid #34495e;
+  border:0px solid #DE0100;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
   box-sizing:border-box;
 }
+
 .donaldtrump:hover .donaldtrumpfacts{
-  border:70px solid #34495e;
+  border:70px solid #DE0100;
 }
+
 .donaldtrump:hover a{
   color:#fff;
 }
 
+.bg{
+  background: url("https://api.time.com/wp-content/uploads/2019/09/american-flag-wind.jpg?quality=85&w=1024&h=512&crop=1");
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
 .buttons{
-  margin-top: 50px;
+  padding-top: 180px;
+  padding-bottom: 120px;
+  margin-top: -7px;
   margin-left: 600px;
   margin-right: 50px;
   display: flex;
