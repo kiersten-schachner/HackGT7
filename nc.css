@@ -1,5 +1,6 @@
 
 
+
 *{
   padding: 0px;
   margin: 0px;
@@ -133,7 +134,7 @@ p{
 .isidewith a{
   font-family:arial;
   font-size:16px;
-  color:#34495e;
+  color:#000;
   text-decoration:none;
   line-height:50px;
   transition:all .5s ease;
@@ -171,7 +172,7 @@ p{
 .cand a{
   font-family:arial;
   font-size:16px;
-  color:#34495e;
+  color:#000;
   text-decoration:none;
   line-height:50px;
   transition:all .5s ease;
@@ -194,8 +195,16 @@ p{
   color:#fff;
 }
 
+.bg{
+  background: url("https://dacq68pa0iusn.cloudfront.net/filters:upscale()/800x1127/AlliedFlag/StateFlags/NorthCarolina-State-Flag/north_carolina_flag-NorthCarolina-StateFlags.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .buttons{
-  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin-top: 10px;
   margin-left: 600px;
   margin-right: 50px;
   display: flex;
