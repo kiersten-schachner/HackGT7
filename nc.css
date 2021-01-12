@@ -1,4 +1,3 @@
-
 *{
   padding: 0px;
   margin: 0px;
@@ -343,4 +342,21 @@ p{
 }
 .green:hover a{
   color:#fff;
+}
+
+.bg{
+  background: url("https://dacq68pa0iusn.cloudfront.net/filters:upscale()/800x1127/AlliedFlag/StateFlags/NorthCarolina-State-Flag/north_carolina_flag-NorthCarolina-StateFlags.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.buttons{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin-top: 10px;
+  margin-left: 600px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
