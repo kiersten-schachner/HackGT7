@@ -1,6 +1,4 @@
 
-
-
 *{
   padding: 0px;
   margin: 0px;
@@ -195,19 +193,154 @@ p{
   color:#fff;
 }
 
-.bg{
-  background: url("https://dacq68pa0iusn.cloudfront.net/filters:upscale()/800x1127/AlliedFlag/StateFlags/NorthCarolina-State-Flag/north_carolina_flag-NorthCarolina-StateFlags.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+.dem{
+  width:250px;
+  height:50px;
+  border:2px solid #0015BC;
+  float:left;
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 40px 0px;
+}
+.dem a{
+  font-family:arial;
+  font-size:16px;
+  color:#000;
+  text-decoration:none;
+  line-height:50px;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+}
+.dem2{
+  width:250px;
+  height:50px;
+  border:0px solid #0015BC;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+  box-sizing:border-box;
+}
+.dem:hover .dem2{
+  border:70px solid #0015BC;
+}
+.dem:hover a{
+  color:#fff;
 }
 
-.buttons{
-  padding-top: 100px;
-  padding-bottom: 50px;
-  margin-top: 10px;
-  margin-left: 600px;
-  margin-right: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.repub{
+  width:250px;
+  height:50px;
+  border:2px solid #DE0100;
+  float:left;
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 40px 0px;
+}
+.repub a{
+  font-family:arial;
+  font-size:16px;
+  color:#000;
+  text-decoration:none;
+  line-height:50px;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+}
+.repub2{
+  width:250px;
+  height:50px;
+  border:0px solid #DE0100;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+  box-sizing:border-box;
+}
+.repub:hover .repub2{
+  border:70px solid #DE0100;
+}
+.repub:hover a{
+  color:#fff;
+}
+
+.lib{
+  width:250px;
+  height:50px;
+  border:2px solid #E5C601;
+  float:left;
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 40px 0px;
+}
+.lib a{
+  font-family:arial;
+  font-size:16px;
+  color:#000;
+  text-decoration:none;
+  line-height:50px;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+}
+.lib2{
+  width:250px;
+  height:50px;
+  border:0px solid #E5C601;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+  box-sizing:border-box;
+}
+.lib:hover .lib2{
+  border:70px solid #E5C601;
+}
+.lib:hover a{
+  color:#fff;
+}
+
+.green{
+  width:250px;
+  height:50px;
+  border:2px solid #3CB371;
+  float:left;
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 40px 0px;
+}
+.green a{
+  font-family:arial;
+  font-size:16px;
+  color:#000;
+  text-decoration:none;
+  line-height:50px;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+}
+.green2{
+  width:250px;
+  height:50px;
+  border:0px solid #3CB371;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+  box-sizing:border-box;
+}
+.green:hover .green2{
+  border:70px solid #3CB371;
+}
+.green:hover a{
+  color:#fff;
 }
